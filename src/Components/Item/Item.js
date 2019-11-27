@@ -50,7 +50,7 @@ class ConnectedItem extends Component {
         >
           <Button
             size="small"
-            style={{ marginRight: 60 }}
+            style={{ marginRight: 60,backgroundColor: "#3f51b5", color: "#fff", fontSize:"12px" }}
             onClick={() => {
               this.props.history.push("/details/" + this.props.item.id);
             }}

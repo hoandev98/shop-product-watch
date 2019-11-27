@@ -79,7 +79,7 @@ class ConnectedOrder extends Component {
           style={{ margin: 5, marginTop: 30 }}
         >
           Discard
-        </Button>
+          </Button>
       </div>
     );
   }
